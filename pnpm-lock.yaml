@@ -36,6 +36,9 @@ importers:
         specifier: ^7.8.1
         version: 7.8.1
     devDependencies:
+      '@first-project/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@nestjs/cli':
         specifier: ^10.0.0
         version: 10.4.2
@@ -112,6 +115,9 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@first-project/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -152,6 +158,9 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@first-project/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
