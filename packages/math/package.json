@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint ."
   },
   "exports": {
     "./add": {
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@first-project/typescript-config": "workspace:*",
+    "@first-project/eslint-config": "workspace:*",
     "typescript": "^5.5.4"
   }
 }
